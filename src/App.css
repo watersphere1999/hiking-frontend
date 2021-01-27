@@ -14,10 +14,29 @@
 .title {
   width: 98px;
   height: 36px;
-  /* margin: 61px 281px 31px 0; */
   margin: 0 281px 31px 0;
   font-family: NotoSansCJKtc;
   font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #232323;
+}
+
+.divider {
+  width: 379px;
+  margin: 0 0 0 0;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.form-label{
+  width: 66px;
+  height: 24px;
+  margin: 0 313px 1px 0;
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -30,19 +49,8 @@
   height: 40px;
   margin: 1px 0 0;
   padding: 9px 0 0;
-}
-.email-label{
-  width: 66px;
-  height: 24px;
-  margin: 0 313px 1px 0;
-  font-family: NotoSansCJKtc;
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-  color: #232323;
+  font-size: 14px;
+  border: none;
 }
 .error-info {
   width: 58px;
@@ -57,26 +65,7 @@
   letter-spacing: 0.5px;
   color: #ff3b30;
 }
-.password {
-  width: 33px;
-  height: 24px;
-  margin: 55px 346px 57px 0;
-  font-family: NotoSansCJKtc;
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-  color: #232323;
-}
-.p-background{
-  width: 379px;
-  height: 40px;
-  padding: 9px 0 0;
-}
 .password-info {
-  /* width: 168px;  */
   width: 169px; 
   height: 21px;
   margin: 16px 211px 55px 0;
@@ -88,27 +77,6 @@
   line-height: 1.5;
   letter-spacing: 0.5px;
   color: #979797;
-}
-
-.check-label {
-  width: 66px;
-  height: 24px;
-  margin: 0 313px 1px 0;
-  font-family: NotoSansCJKtc;
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-  color: #232323;
-}
-
-.ck-background {
-  width: 379px;
-  height: 40px;
-  margin: 1px 0 0;
-  padding: 9px 0 0;
 }
 
 .privacy-info {
@@ -136,6 +104,7 @@
   padding: 12px 147px 12px 149px;
   border-radius: 4px;
   background-color: #00d04c;
+  border: none;
 
   font-family: NotoSansCJKtc;
   font-size: 16px;
