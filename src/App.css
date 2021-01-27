@@ -1,38 +1,149 @@
-.App {
+.container {
+  width: 411px;
+  height: 768px;
+  padding: 40px 16px 48px;
+  background-color: #ffffff;
+  border-style: solid;
+}
+.MaterialIcons-blackArrow-back {
+  width: 24px;
+  height: 24px;
+  margin: 0 355px 61px 0;
+  object-fit: contain;
+}
+.title {
+  width: 98px;
+  height: 36px;
+  /* margin: 61px 281px 31px 0; */
+  margin: 0 281px 31px 0;
+  font-family: NotoSansCJKtc;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #232323;
+}
+.background{
+  width: 379px;
+  height: 40px;
+  margin: 1px 0 0;
+  padding: 9px 0 0;
+}
+.email-label{
+  width: 66px;
+  height: 24px;
+  margin: 0 313px 1px 0;
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #232323;
+}
+.error-info {
+  width: 58px;
+  height: 21px;
+  margin: 16px 321px 55px 0;
+  font-family: NotoSansCJKtc;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #ff3b30;
+}
+.password {
+  width: 33px;
+  height: 24px;
+  margin: 55px 346px 57px 0;
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #232323;
+}
+.p-background{
+  width: 379px;
+  height: 40px;
+  padding: 9px 0 0;
+}
+.password-info {
+  /* width: 168px;  */
+  width: 169px; 
+  height: 21px;
+  margin: 16px 211px 55px 0;
+  font-family: NotoSansCJKtc;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #979797;
+}
+
+.check-label {
+  width: 66px;
+  height: 24px;
+  margin: 0 313px 1px 0;
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #232323;
+}
+
+.ck-background {
+  width: 379px;
+  height: 40px;
+  margin: 1px 0 0;
+  padding: 9px 0 0;
+}
+
+.privacy-info {
+  width: 379px;
+  height: 45px;
+  margin: 16px 0 40px;
+  font-family: NotoSansCJKtc;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #232323;
+}
+
+.privacy-info .text-style-1 {
+  color: #007aff;  
+}
+
+.Rectangle {
+  width: 379px;
+  height: 48px;
+  margin: 40px 0 0;
+  padding: 12px 147px 12px 149px;
+  border-radius: 4px;
+  background-color: #00d04c;
+
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #ffffff;
 }
