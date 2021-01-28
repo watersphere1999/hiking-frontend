@@ -2,8 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import './App.css';
 import Register0 from './pages/Register0';
@@ -13,14 +12,6 @@ function App() {
   return (
     <Router>
       <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/register">Register</Link>
-          </li>
-        </ul>
         <Switch>
           <Route exact path="/">
             <Home />

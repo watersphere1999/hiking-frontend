@@ -1,13 +1,13 @@
 import React from 'react';
-import arrow from '../material-icons-black-arrow-back.svg';
 import './Register0.css';
 import ButtonSubmit from '../components/ButtonSubmit';
 import FormInputLabel from '../components/FormInputLabel';
+import BackButton from '../components/BackButton';
 
 function Register0() {
     return (
       <div className="container">
-        <img src={arrow} alt="arrow" className="MaterialIcons-blackArrow-back" />
+        <BackButton />
         <div className="title">註冊帳號</div>
         <FormInputLabel label={'電子信箱'} placeholder={'請輸入電子信箱'} id={'email'} />
         <hr className="divider"></hr>

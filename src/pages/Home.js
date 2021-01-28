@@ -1,11 +1,12 @@
 import "./Home.css";
-import sample from "./sample.jpg";
+import sample from "../sample.jpg";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="container">
       <div className="up">
-        <img src={sample} className="sampleImage"></img>
+        <img src={sample} alt="" className="sampleImage" />
         <div className="goHikingText">GO HIKING</div>
       </div>
       <div className="down">
@@ -31,7 +32,7 @@ function App() {
         />
       </div>
       <div style={{ textAlign: "center" }}>
-        還不是會員嗎?<span>註冊新帳號</span>
+        還不是會員嗎?<Link to="/register">註冊新帳號</Link>
       </div>
       <button type="button" className="useButton">
         直接使用
