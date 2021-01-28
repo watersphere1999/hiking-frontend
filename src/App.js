@@ -1,12 +1,11 @@
-import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import './App.css';
-import Register0 from './pages/Register0';
-import Home from './pages/Home.js'
+import "./App.css";
+
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import Home from "./pages/Home.js";
+import Register0 from "./pages/Register0";
+import Register1 from "./pages/Register1";
 
 function App() {
   return (
@@ -16,8 +15,11 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/register">
+          <Route path="/register ">
             <Register0 />
+          </Route>
+          <Route path="/register1 ">
+            <Register1 />
           </Route>
         </Switch>
       </div>
