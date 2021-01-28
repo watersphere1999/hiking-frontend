@@ -1,0 +1,110 @@
+.container {
+  width: 411px;
+  height: 768px;
+  padding: 40px 16px 48px;
+  background-color: #ffffff;
+  border-style: solid;
+}
+.R1title {
+  width: 147px;
+  height: 36px;
+  /* margin: 61px 281px 31px 0; */
+  margin: 0 281px 31px 0;
+  font-family: NotoSansCJKtc;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #232323;
+}
+.R1background{
+  border:0ch;
+  border-bottom: 1px solid #bbb;
+  width: 379px;
+  height: 40px;
+  margin: 1px 0 31px;
+  padding: 9px 0 0;
+}
+.Genderbackground{
+  border:0ch;
+  border-bottom: 1px solid #bbb;
+  width: 379px;
+  height: 40px;
+  margin: 1px 0 31px;
+  padding: 9px 0 0;
+}
+.BackgroundPhoneRegion {
+  border:0ch;
+  border-bottom: 1px solid #bbb;
+  width: 123px;
+  height: 48px;
+  margin: 1px 0 31px;
+  padding: 8px 0 0;
+}
+.BackgroundPhoneNumber {
+  border:0ch;
+  border-bottom: 1px solid #bbb;
+  width: 240px;
+  height: 40px;
+  margin: 1px 0 0 16px;
+  padding: 8px 0 0;
+}
+.gender-label{
+  width: 33px;
+  height: 24px;
+  margin: 31px 346px 1px 0;
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #232323;
+}
+.phone-label{
+  width: 66px;
+  height: 24px;
+  margin: 0 313px 1px 0;
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #232323;
+}
+.text-label{
+  width: 33px;
+  height: 24px;
+  margin: 31px 106px 72px 0;
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #232323;
+}
+.Rectangle {
+  width: 379px;
+  height: 48px;
+  margin: 40px 0 0;
+  padding: 12px 147px 12px 149px;
+  border-radius: 4px;
+  background-color: #00d04c;
+
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+}
