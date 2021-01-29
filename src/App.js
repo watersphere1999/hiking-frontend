@@ -15,10 +15,10 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/register ">
+          <Route path="/register">
             <Register0 />
           </Route>
-          <Route path="/register1 ">
+          <Route path="/register1">
             <Register1 />
           </Route>
         </Switch>
