@@ -63,7 +63,7 @@
   letter-spacing: normal;
   position: absolute;
   top: 50px;
-  left: 106px;
+  left: 106px; /*nothing at all*/
   color: white;
   /* transform: translate(-64%, -70%); */
 }
