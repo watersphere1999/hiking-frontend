@@ -71,7 +71,7 @@
 .iconGoogle{
   font-size : 23px;
   position: absolute;
-  top: 423px;
+  top: 421px;
   left: 124px;
 }
 
@@ -79,7 +79,7 @@
   color: white;
   font-size : 22px;
   position: absolute;
-  top: 484px;
+  top: 481px;
   left: 110px;
 }
 
@@ -87,88 +87,54 @@
   color: white;
   font-size : 20px;
   position: absolute;
-  top: 544px;
+  top: 541px;
   left: 120px;
 }
 
 .iconEmail{
   font-size : 22px;
   position: absolute;
-  top: 605px;
-  left: 126px;
+  top: 601px;
+  left: 128px;
+}
+
+.down input{
+  width: 379px;
+  height: 44px;
+  margin: 16px 16px 0px 16px;
+  padding: 10px 90px 10px 108px;
+  border-radius: 6px;
+  border: solid 1px #8e8e93;
+  background-color: var(--white-color);
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 16px;  
+  font-family: 'Noto Sans TC', sans-serif;
+  font-stretch:normal;
+  font-style: normal;
+  letter-spacing: 0.7px;
 }
 
 .rectangleGoogle{
-  width: 379px;
-  height: 44px;
-  margin: 24px 16px 0px 16px;
-  padding: 10px 90px 10px 108px;
-  border-radius: 6px;
-  border: solid 1px #8e8e93;
-  background-color: var(--white-color);
-  color: black;
-  background-color: white;
-  text-align: center;
-  font-size: 16px;  
-  font-family: 'Noto Sans TC', sans-serif;
-  font-stretch:normal;
-  font-style: normal;
-  letter-spacing: 0.7px;
-  /* line-height: 1.5; */
+  margin: 24px 16px 0px 16px !important;
+  color: black !important;
+  background-color: white !important;
 }
 
 .rectangleFacebook{
-  width: 379px;
-  height: 44px;
-  margin: 16px 16px 0px 16px;
-  padding: 10px 90px 10px 108px;
-  border-radius: 6px;
-  border: solid 1px #8e8e93;
-  background-color: var(--white-color);
-  color: #ffffff;
-  background-color: #4267b2;
-  text-align: center;
-  font-size: 16px;  
-  font-family: 'Noto Sans TC', sans-serif;
-  font-stretch:normal;
-  font-style: normal;
-  letter-spacing: 0.7px;
+  color: #ffffff !important;
+  background-color: #4267b2 !important;
 }
 
 .rectangleApple{
-  width: 379px;
-  height: 44px;
-  margin: 16px 16px 0px 16px;
-  padding: 10px 90px 10px 108px;
-  border-radius: 6px;
-  border: solid 1px #8e8e93;
-  background-color: var(--white-color);
-  color: #ffffff;
-  background-color: #000000;
-  text-align: center;
-  font-size: 16px;  
-  font-family: 'Noto Sans TC', sans-serif;
-  font-stretch:normal;
-  font-style: normal;
-  letter-spacing: 0.7px;
+  color: #ffffff !important;
+  background-color: #000000 !important;
 }
 
 .rectangleEmail{
-  width: 379px;
-  height: 44px;
-  margin: 16px 16px 0px 16px;
-  padding: 10px 90px 10px 108px;
-  border-radius: 6px;
-  border: solid 1px #8e8e93;
-  background-color: var(--white-color);
-  color: black;
-  background-color: white;
-  text-align: center;
-  font-size: 16px;  
-  font-family: 'Noto Sans TC', sans-serif;
-  font-stretch:normal;
-  font-style: normal;
-  letter-spacing: 0.7px;
+  color: black !important;
+  background-color: white !important;
 }
 
 .useButton{
