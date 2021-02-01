@@ -5,6 +5,7 @@ import {FcGoogle} from "react-icons/fc";
 import {AiFillFacebook} from "react-icons/ai";
 import {FaApple} from "react-icons/fa";
 import {HiOutlineMail} from "react-icons/hi"
+import EmailLogin from "../components/EmailLogin";
 
 function App() {
   return (
@@ -35,11 +36,7 @@ function App() {
           defaultValue="透過Apple ID登入"
         />
         <HiOutlineMail className = "iconEmail"/>
-        <input
-          type="button"
-          className="rectangleEmail"
-          defaultValue="透過Email登入"
-        />
+        <EmailLogin description={'透過Email登入'} />
       </div>
       <div style={{ width: "178px", height: "21px", margin: "24px 117px 22px 116px", textAlign: "center", fontSize:"14px", letterSpacing: "0.5px", fontFamily: "Noto Sans TC" }}>
         還不是會員嗎? <Link to="/register">註冊新帳號</Link>
